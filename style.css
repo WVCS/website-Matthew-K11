@@ -7,10 +7,6 @@ color: white;
     word-spacing: 10px;
       text-decoration: overline underline blue  10px;
 }
-img:{
-  border-radius: 15px;
-    opacity: 0.95;
-}
 img:hover {
   width: 20%;
   border: dotted 10px;
@@ -19,34 +15,10 @@ h1 {
   font-size: 50%;
   font-style: Times New Roman;
 }
-body {
-  font-family: system-ui;
-  background: #ADD8E6;
-color: white; 
-  text-align: center;
-  font-size: 350%;
-    word-spacing: 10px;
-      text-decoration: overline underline blue  10px;
-}
-img:{
+img{
   border-radius: 15px;
     opacity: 0.95;
 }
-img:hover {
-  width: 20%;
-  border: dotted 10px;
-}
-h1 {
-  font-size: 50%;
-  font-style: Times New Roman;
-}
-button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: 'Arial', sans-serif;
-}
-
 button {
   border: none;
   outline: none;
