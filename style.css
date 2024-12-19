@@ -19,3 +19,101 @@ h1 {
   font-size: 50%;
   font-style: Times New Roman;
 }
+body {
+  font-family: system-ui;
+  background: #ADD8E6;
+color: white; 
+  text-align: center;
+  font-size: 350%;
+    word-spacing: 10px;
+      text-decoration: overline underline blue  10px;
+}
+img:{
+  border-radius: 15px;
+    opacity: 0.95;
+}
+img:hover {
+  width: 20%;
+  border: dotted 10px;
+}
+h1 {
+  font-size: 50%;
+  font-style: Times New Roman;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container to hold buttons */
+.button-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Styling for the cool button */
+.cool-button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Button Hover Effects */
+.cool-button:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Add a cool underline effect on hover */
+.cool-button::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cool-button:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Adding a cool text shadow effect */
+.cool-button:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Button Focus Styles */
+.cool-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 3px rgba(255, 127, 80, 0.6);
+}
+            </style>
